@@ -1,0 +1,114 @@
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+body{
+    height: 100vh;
+}
+.main{
+    /* margin-top: 6.5%; */
+    height: 100vh;
+    display: flex;
+}
+.login-left{
+    height: 100%;
+    width: 35%;
+    padding: 0 5% 0 5%;
+    background-color: #EB4F4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    color: #fff;   
+}
+.login-right{
+    height: 100%;
+    width: 65%;
+    background-color: #F4F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-left .text h1{
+    font-size: 55px;
+
+} 
+.login-left .text p{
+    font-size: 20px;
+} 
+
+.log h4{
+    font-size: 35px;
+    text-align: center;
+}
+.log label{
+    font-size: 15px;
+    text-transform:capitalize;
+}
+.log input{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid #2b2b2b;
+    border-radius: 15px;
+} 
+.log button{
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #2b2b2b;
+
+}
+.log a{
+    margin:10px 5px ;
+    display: block;
+}
+.log a:hover{
+    color: #EB4F4F;
+}
+.password-div{
+    display: flex;
+    gap: 10px;
+} 
+.checkbox input{
+    width: auto;
+}
+.checkbox p{
+    font-size: 15px;
+}
+.checkbox  label{
+    width: auto;
+    padding:0  5px 0 5px ;
+   
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.invalid_input{
+    animation:  invalid_input 300ms;
+    border: #EB4F4F 2px solid !important; 
+    color: #EB4F4F;
+
+}
+@keyframes invalid_input {
+    25%{
+    transform: translateX(4px);
+    }    
+    50%{
+    transform: translateX(-4px);
+    }    
+    75%{
+    transform: translateX(4px);
+    }    
+}
+#mobile-number-err,#password-err{
+    margin: -5px 0 10px 0;
+    color:#EB4F4F;
+}

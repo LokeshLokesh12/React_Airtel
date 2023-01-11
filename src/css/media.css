@@ -1,0 +1,1104 @@
+@media only screen and (max-width: 1450px){
+    .form-menu ul li{
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1180px){
+    .prepaid h3{
+        font-size: 12px;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .prepaid h3{
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .main-content .logo img {
+        width: 75px;
+    }
+    .header .container{
+        width: 82%;
+
+    }
+    .form-menu ul li img {
+        display: none;
+    }
+    .form-menu ul li{
+        font-size: 12px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        margin-top: 2%;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-width: 955px){
+    .prepaid h3{
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .main-content .logo img {
+        width: 75px;
+    }
+    .header .container{
+        width: 87%;
+
+    }
+    .form-menu ul li img {
+        display: none;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        margin-top: 2%;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    
+    .airtel_part ul{
+        left: 50%; 
+
+    }
+    .prepaid h3{
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .main-content .logo img {
+        width: 75px;
+    }
+    .header .container{
+        width: 95%;
+
+    }
+    .form-menu ul li img {
+        display: none;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        margin-top: 2%;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 14px;
+    }
+    .airtel_part ul {
+        left: 40%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    .prepaid h3{
+        font-size: 9px;
+        margin-right: 4px;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .main-content .logo img {
+        width: 75px;
+    }
+    .header .container{
+        width: 100%;
+
+    }
+
+    .form-menu ul li img {
+        display: none;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        margin-top: 2%;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    .prepaid h3{
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .main-content .logo img {
+        width: 75px;
+    }
+    .header .container{
+        width: 82%;
+
+    }
+    .form-menu ul li img {
+        display: none;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        margin-top: 2%;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 550px){
+    .airtel_part{
+        display: none;
+    }
+
+
+    .airtel_part ul{
+        left: 13%; 
+    }
+    .prepaid h3{
+        display: none;
+    }
+    .content-list{
+        display: none;
+    }
+    .main-content .logo img {
+        width: 125px;
+        margin-top: 30%;
+        margin-left: -75%;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .header{
+        height: 60px;
+        position: fixed;
+        padding-top: .5%;
+
+    }
+   
+    .header .container{
+        width: 86%;
+
+    }
+    .option{
+        /* margin-left: 65%; */
+        margin-left: 55%;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .option a #get-img {
+        margin-left: 13px;
+    }
+    .option a img{
+        margin: 0 0 0 0px;
+    }
+    .option a p{
+        margin: 0 0 0 0;
+        text-transform: capitalize;
+        font-size: 13px;
+
+    }
+    #home{
+        margin: 14% 0 0 0 !important;
+    }
+    .hite {
+        height: 200px !important;
+    }
+    .something .sometext{
+        display: none;
+    }
+    .something .someform {
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        justify-self: center;
+        /* margin-left: 2%; */
+    }
+    .ljk h1{
+        font-size: 25px;
+    }
+    .form-menu ul li img {
+        display: block;
+        height: 10px;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+        display: flex;
+        font-size: 8px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        width: 98%;
+        margin-top: 2% 0;
+    }
+    .quick-actions-container ul li{
+        /* margin-right: 14px; */
+        margin-right: 20px;
+        display: block;
+        width: 95px;
+        padding: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+        display: flex;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 12px;
+    }
+    .something .someform .recharge-box{
+        width: 98%;
+        margin-right: 2%;
+    }
+    .international-roaming-main{
+        height: auto;
+    }
+    .right-text- p{
+        margin: 50px 0 20px;
+    }
+    .right-text-{
+        margin: 0 0 0 15px;
+        width: 100%;
+
+    }
+    .right-text- p{
+        margin: 40px 0 20px;
+    }
+    .right-text- h4 {
+        font-size: 24px; 
+        margin: 0px 0 10px;
+    }
+    .button a h5 {
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .text-content .heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .text-content a{
+        margin: 45px 0 0 45px;
+        font-size: 15px;
+    }
+    .text-content {
+        width: 100%;
+        padding: 40px 20px 40px 0;
+    }
+    .img-content{
+        display: none;
+    }
+    .postpaid-girl{
+        display: none;
+    }
+    .underline{
+        margin-top: -5%;
+        margin-bottom: 10px;
+    
+    }
+    .airtel-prepaid-box .container {
+        padding: 40px 40px 0 10px;
+        width: 100%;
+    }
+    .box-content-head h4{
+        margin: 0 0 10px;
+    }
+    .box-content-head p{
+        margin: 0 0 20px;
+        
+    }
+    .block{
+        max-width: 115px;
+        max-height: 130px;
+        /* flex: 1 0; */
+    }
+    .block p{
+        margin: 5px 0 10px;
+        font-size: 9px;
+    }
+    .block h4 {
+        margin: 0 0 5px;
+    }
+    .xstream-cover .heading {
+        
+        font-size: 18px;
+    }
+    .xstream-banner img{
+        /* margin: 0 0 0 40px; */
+        overflow-x: hidden;
+    }
+    .xstream-blocks-1 img, .xstream-blocks-2 img {
+        width: 110px;
+        height: 80px;
+    }
+    .talk-unlimited-main{
+        margin-top: 40px;
+        height: auto;
+    }
+    .talk-unlimited-main .container .right img {
+        /* display: none; */
+        width: 100%;
+        height: 150px;
+        margin: 0 0 0 20%;
+    }
+
+    .talk-unlimited-main .container {
+        display: block;
+    }
+    .talk-unlimited-main .container .left{
+        height: 50%;
+        width: 100%;
+        margin: 25px 0 0 15px
+    }
+    .underline-3{
+        display: none;
+    }
+    .wynk-music-main .container{
+        display: block;
+    }
+    .wynk-music-main .container .content-left {
+        width: 90%;
+        margin: 5%;
+    }
+    .wynk-music-main .container .content-left img{
+        width: 100%;
+    }
+    .wynk-music-main .container .content-right {
+        width: 100%;
+        margin: 25px 0 19px 17px;
+    }    
+    .wynk-music-main .container .content-right h6 {
+        margin: 0 0 5px;
+    }
+    .we-offer-par{
+        flex-direction: column;
+    }
+    #we-heading{
+        font-size: 2rem;
+    }
+    .weather-off #we-but{
+        margin: 22% 0 0 0;
+    }
+    /* .airtel-thanks-app-main .container {
+        display: block;
+    } */
+    .app-left img {
+        margin: 55px 0px 55px -5%;
+    }
+    .app-right{
+        margin-top: 115px;
+        margin: 115px 0 0% 3%;
+    }
+    .app-right p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .app-right h4 {
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 10px;
+    }
+    .app-right img {
+        height: 80px;
+        width: 80%;
+        margin: -10px 0px;
+    }
+    .app-on img {
+        width: 90px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    footer .container .upper-section {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    footer .container .upper-section .foot-left {
+        width: 100%;
+    }
+    footer .container .upper-section .foot-right {
+        width: 100%;
+    }
+    footer .container .upper-section .foot-right a h3 {
+        margin: 25px 0;
+    }
+    
+    .social-icons {
+        width: 100%;
+        margin: 40px 0 10px 0;
+    }
+    .links {
+        display: block;
+    }    
+    .links .link-list {
+        display: block;
+        font-size: 11px;
+    }
+    .links .link-list a li{
+        margin-bottom: 10px;
+    }
+    .img-sec {
+        margin: 10px 0 ;
+        display:inline-block        
+    }
+    .img-sec img{
+        margin-right: 10px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-top: 0px;
+    }   
+    footer .container .upper-section .foot-left h3 {
+        position: relative;
+        color: #393939;
+        font-size: 15px;
+        padding-bottom: 11px;
+        margin-top: -35px;
+    }
+    .remenu {
+        width:100%;
+    }
+    .form-menu ul li img {
+        height: 15px;
+    }
+    .something .someform .recharge-box .remenu form {
+        width: 100%;
+    }
+    .something .someform .form-menu {
+        height: 30%;
+        width: 97%;
+    }
+    .something .someform .recharge-box {
+        width: 100%;
+        margin-right: 2%;
+    }
+    .something .someform .recharge-box {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .form-menu ul {
+        margin-top: 7%;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .international-roaming-main .container{
+        display: block;
+    }
+    .img-left- {
+        /* width: 72%; */
+    }
+    .play-air-thanks{
+        display: none;
+    }
+    .footer-for-mob{
+        display: block;
+    }
+    .foot-left .quick-content{
+        display: none !important;
+    }
+    .foot-left .footer-for-mob{
+        margin: 10% 0 0 0;
+    }
+    .foot-left .footer-for-mob details summary {
+        font-size: 20px;
+    }
+    footer .container .upper-section .foot-left ul{
+        font-size: 14px;
+        margin: 2% 0 0 5%;
+    }
+    .bt2{
+        display: none;
+    }
+    .footer-for-mob .btt h5{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-size: 24px;
+    /* margin: 0 0 0 5% 0 !important; */
+    margin-bottom: 5%;
+    /* padding-bottom: 5%; */
+    }
+    .img-left-{
+        /* width: 30%; */
+        margin: 0 0 0 10%;
+    }
+    .links .link-list{
+        width: 100%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 426px){
+    
+    .airtel_part{
+        display: none;
+    }
+    .international-roaming-main .container{
+        display: block;
+    }
+    .img-left- {
+        width: 86%;
+    }
+    .get-app{
+        display: none;
+    }
+
+    .airtel_part ul{
+        left: 13%; 
+    }
+    .prepaid h3{
+        display: none;
+    }
+    .content-list{
+        display: none;
+    }
+    .main-content .logo img {
+        width: 125px;
+        margin-top: 30%;
+        margin-left: -75%;
+    }
+    .prepaid svg{
+        margin-left: 0px;
+
+    }
+    .header{
+        height: 60px;
+        position: fixed;
+    }
+   
+    .header .container{
+        width: 86%;
+
+    }
+    .option{
+        margin-left: 70%;
+        /* margin-left: 55%; */
+        height: 30px;
+        margin-top: 5px;
+    }
+    .option a #get-img {
+        margin-left: 13px;
+    }
+    .option a img{
+        margin: 0 0 0 0px;
+    }
+    .option a p{
+        margin: 0 0 0 0;
+        text-transform: capitalize;
+        font-size: 11px;
+    }
+    .something .sometext{
+        display: none;
+    }
+    .something .someform {
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        justify-self: center;
+        /* margin-left: 2%; */
+    }
+    .ljk h1{
+        font-size: 25px;
+    }
+    .form-menu ul li img {
+        display: block;
+        height: 10px;
+    }
+    .form-menu ul li{
+        font-size: 9.5px;
+        display: flex;
+        font-size: 8px;
+    }
+    .something .someform .form-menu{
+        height: 30%;
+        width: 98%;
+        margin-top: 2% 0;
+        margin: 0 0 0 5px;
+    }
+    .quick-actions-container ul li{
+        margin-right: 14px;
+        /* margin-right: 20px; */
+        display: block;
+        width: 95px;
+        padding: 14px;
+    }
+    .form-menu ul{
+        margin-top: 7%;
+        display: flex;
+    }
+    .something .sometext h1{
+        margin-top: 8%;
+    }
+    .li-box{
+        width: 115px;
+    }
+    .square p{
+        font-size: 12px;
+    }
+    .something .someform .recharge-box{
+        width: 98%;
+        margin-right: 2%;
+    }
+    .international-roaming-main{
+        height: auto;
+    }
+    
+    .right-text- p{
+        margin: 50px 0 20px;
+    }
+    .right-text-{
+        margin: 0 0 0 15px;
+        width: 100%;
+
+    }
+    .right-text- p{
+        margin: 40px 0 20px;
+    }
+    .right-text- h4 {
+        font-size: 24px; 
+        margin: 0px 0 10px;
+    }
+    .button a h5 {
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .text-content .heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .text-content a{
+        margin: 45px 0 0 45px;
+        font-size: 15px;
+    }
+    .text-content {
+        width: 100%;
+        padding: 40px 20px 40px 0;
+    }
+    .img-content{
+        display: none;
+    }
+    .postpaid-girl{
+        display: none;
+    }
+    .underline{
+        margin-top: -5%;
+        margin-bottom: 10px;
+    
+    }
+    .airtel-prepaid-box .container {
+        padding: 40px 40px 0 10px;
+        width: 100%;
+    }
+    .box-content-head h4{
+        margin: 0 0 10px;
+    }
+    .box-content-head p{
+        margin: 0 0 20px;
+        
+    }
+    .block{
+        max-width: 115px;
+        max-height: 130px;
+        /* flex: 1 0; */
+    }
+    .block p{
+        margin: 5px 0 10px;
+        font-size: 9px;
+    }
+    .block h4 {
+        margin: 0 0 5px;
+    }
+    .xstream-cover .heading {
+        font-size: 18px;
+    }
+    .xstream-banner img{
+        /* margin: 0 0 0 40px; */
+        overflow-x: hidden;
+    }
+    .xstream-blocks-1 img, .xstream-blocks-2 img {
+        width: 110px;
+        height: 80px;
+    }
+    .talk-unlimited-main{
+        margin-top: 40px;
+        height: auto;
+    }
+    .talk-unlimited-main .container .right img {
+        display: none;
+        width: 100%;
+        height: 150px;
+        margin: 0 0 0 20%;
+    }
+
+    .talk-unlimited-main .container {
+        display: block;
+    }
+    .talk-unlimited-main .container .left{
+        height: 50%;
+        width: 100%;
+        margin: 25px 0 0 15px
+    }
+    .underline-3{
+        display: none;
+    }
+    .wynk-music-main .container{
+        display: block;
+    }
+    .wynk-music-main .container .content-left {
+        width: 90%;
+        margin: 5%;
+    }
+    .wynk-music-main .container .content-left img{
+        width: 100%;
+    }
+    .wynk-music-main .container .content-right {
+        width: 100%;
+        margin: 25px 0 19px 17px;
+    }    
+    .wynk-music-main .container .content-right h6 {
+        margin: 0 0 5px;
+    }
+
+    /* .airtel-thanks-app-main .container {
+        display: block;
+    } */
+    .app-left img {
+        margin: 55px 0px 55px -5%;
+    }
+    .app-right{
+        margin-top: 115px;
+        margin: 70px 0 0% 3%;
+    }
+    .app-right p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .app-right h4 {
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 10px;
+    }
+    .app-right img {
+        height: 80px;
+        width: 80%;
+        margin: -10px 0px;
+    }
+    .app-on img {
+        width: 90px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    footer .container .upper-section {
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    footer .container .upper-section .foot-left {
+        width: 100%;
+    }
+    footer .container .upper-section .foot-right {
+        width: 100%;
+    }
+    footer .container .upper-section .foot-right a h3 {
+        margin: 25px 0;
+    }
+    .social-icons {
+        width: 100%;
+        margin: 40px 0 10px 0;
+    }
+    .links {
+        display: block;
+    }    
+    .links .link-list {
+        display: block;
+        font-size: 11px;
+    }
+    .links .link-list a li{
+        margin-bottom: 10px;
+    }
+    .img-sec {
+        margin: 10px 0 ;
+        display:inline-block        
+    }
+    .img-sec img{
+        margin-right: 10px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-top: 0px;
+    }   
+    footer .container .upper-section .foot-left h3 {
+        position: relative;
+        color: #393939;
+        font-size: 11px;
+        padding-bottom: 11px;
+        margin-top: -35px;
+    }
+    .remenu {
+        width:100%;
+        
+    }
+    .form-menu ul li img {
+        height: 15px;
+    }
+    .something .someform .recharge-box .remenu form {
+        width: 100%;
+    }
+    .something .someform .form-menu {
+        height: 30%;
+        width: 97%;
+        margin: 0 0 0 5px;
+    }
+    .something .someform .recharge-box {
+        width: 100%;
+        margin-right: 2%;
+    }
+    .something .someform .recharge-box {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .form-menu ul {
+        margin-top: 7%;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .play-air-thanks{
+        display: none;
+    }
+}
+@media only screen and (max-width: 391px){
+    .option {
+        /* margin-left: 75%; */
+        margin-left: 50%;
+
+    }
+    /* .app-left img {
+        width: 150px;
+    } */
+    .app-left img {
+        margin: 55px 0px 55px 0%;
+        width: 150px;
+    }
+    .app-left {
+        width: auto;
+    }
+    .app-right h4 {
+        font-size: 17px;
+    }
+    .app-right {
+        margin: 45px 0 0% 3%;
+    }
+    .header{
+        position: fixed;
+    }
+    #home{
+        margin: 0 0 0 0 !important;
+    }
+    .block {
+        margin: 0 15px 50px 0;
+    }
+    .block3{
+        margin:0 0px 50px 0 ;
+    }
+    /* .box-content-head{
+        width: auto;
+    } */
+    .quick-actions-container ul li {
+        /* margin-right: 14px; */
+        width: 90px;
+        height: 100px;
+    }
+    .quick-actions-container ul li p {
+        margin-top: 12px;
+    }
+    .square p {
+        font-size: 11px;
+    }
+    .quick-actions-container {
+        margin-left: 5%;
+        /* background-color: yellow; */
+    }
+
+    .img-left- {
+        /* width: 94%; */
+        width: 97.7% !important;
+    }
+    .xstream-cover .heading {
+        font-size: 17px;
+        margin-top: 10px;
+
+    }
+    .xstream-blocks-1 img, .xstream-blocks-2 img {
+        width: 90px;
+        height: 50px;
+    }
+    .xstream-blocks-3 img {
+        height: 50px;
+    }
+    .xstream-product p{
+        font-size: 13px;
+    }
+    .xstream-product .btn{
+        padding: 10px 0;
+    }
+    .xstream-blocks {
+        margin: 0 0 10%;
+    }
+    footer .container .upper-section .foot-left ul {
+        font-size: 10px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-top: 15%;
+    }
+    .something .someform .form-menu {
+        height: 30%;
+        width: 100%;
+        margin: 0px 0 0 0px !important;
+    }
+
+}
+@media only screen and (max-width:381px){
+    .img-left- {
+        /* width: 97%; */
+    }
+    .header{
+        position: fixed;
+    }
+    .xstream-cover .heading {
+        font-size: 15px;
+    }
+    .xstream-product p {
+        font-size: 12px;
+    }  
+    .text-content a {
+        margin: 45px 0 0 45px;
+        font-size: 13px;
+    } 
+}
+    

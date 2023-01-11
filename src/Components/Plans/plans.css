@@ -1,0 +1,142 @@
+body{
+    width: 100vw;
+    height: 100vh;
+     
+}
+.main{
+    display: flex;
+
+}
+.plan_left{
+    width: 35%;
+    background-color: #EB4F4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 6.5% 2% 0 2%; ;
+
+    /* padding: 0 2% 0 2%; */
+}
+.plan_right{
+    background-color: #F4F5FF;
+    width: 65%;
+    padding: 0 15% ;
+    padding: 6.5% 2% 0 2%;
+    overflow-y: scroll;
+
+}
+.plan_header{
+    width: 62%;
+    margin-left: -1%;
+    border-bottom: 2px solid #312;  
+    position: fixed;
+    background-color: #EB4F4F;
+    top: 20.5%; 
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+    /* z-index: 1000000; */
+    
+}
+.header_ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0% !important;
+
+    /* overflow-x: scroll; */
+   
+
+}
+.header_ul li {
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header_ul li a {
+    /* color: #000 ;    */
+    color: #fff;
+
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.detail{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    flex-direction:column ;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(231, 231, 231); */
+}
+section{
+    width: 100%;
+    display: contents;
+    
+}
+.childBox{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: aliceblue;
+    /* box-shadow: 5px 5px 10px #321; */
+    box-shadow: 0 0 9px 0 hsl(0deg 0% 84% / 50%);
+
+    /* text-align: center; */
+}
+.childBox .top{
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    padding: 10px 0px;
+    font-weight: 300;
+
+}
+.childBox .top button{
+  
+    height: fit-content;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    padding: 5px 15px;   
+    border-radius: 5px;
+    border: none;
+}
+.childBox .bot{
+    padding: 5px 50px 10px 30px; 
+    
+}
+.childBox .bot #benTil{
+    padding: 15px 0px;
+    margin: 0;
+    font-weight: 700;
+}
+.childBox .bot p{
+    font-size: 20px;
+   
+}
+.childBox .bot ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 5px;
+    line-height: 15px;
+}
+.pack{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}

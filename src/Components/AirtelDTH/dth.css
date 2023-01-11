@@ -1,0 +1,44 @@
+.dthli{
+   list-style: none !important;
+   margin: 0 !important;
+   padding: 0;
+}
+.dthul{
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+ 
+}
+.dthp{
+    font-size: 10px;
+    color: #555;
+    width: 62px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.dthcost{
+    font-size: 10px;
+    color: #555;
+    /* width: 62px; */
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.dth_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #f6f6f6;
+    justify-content: center;
+    display: flex;
+    margin-left: 5px;
+    margin: 10px 0;
+}
+.dthimg{
+    width: 35px; 
+}
+.dthh{
+    text-align: center;
+    margin: 5px 0 !important;
+}

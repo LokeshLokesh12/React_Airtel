@@ -1,0 +1,146 @@
+body{
+    width: 100vw;
+    height: 100vh;
+     
+}
+.main{
+    display: flex;
+
+}
+.Payment_left{
+    width: 35%; 
+    background-color: #3e4146;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  
+   
+    padding: 6.5% 2% 0 2%;
+}
+.Payment_right{
+    background-color: #F4F5FF;
+    width: 65%;
+    padding: 0 15% ;
+    padding: 7.5% 2% 0 2%;
+    overflow-y: scroll;
+    
+
+}.text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 300;
+    color: gainsboro;
+}
+.input_field input{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid #2b2b2b;
+    border-radius: 15px;
+    text-transform: capitalize;
+    border-radius: 10px !important;
+
+} 
+.input_field button{
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px !important;
+    color: #fff;
+    background-color: #3e4146;
+    border: 1px solid #2b2b2b;
+    text-transform: capitalize;
+}
+.pay{
+    padding: 9% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+.summary{
+    width: 90%;
+    height: 550px;
+    padding: 2%;
+    background-color: #eef4ff;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 3px 3px 9px  #514e4e80;
+    animation: intropay .3s ease-in ;
+}
+
+.payment_heading h1{
+    font-weight: 600;
+    
+}
+.num_recharge,.summary_mid,.summary_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.summary_top,.summary_mid,.summary_bottom{
+    padding: 12px 18px;
+    text-transform: capitalize;
+
+}
+.summary_mid{
+    border-bottom: .5px dotted #696969;
+    border-top: .5px solid #d8d8d8;
+    font-size: 25px;    
+}
+.summary_data h6,.summary_data h5,.summary_data p{
+    font-size: 25px;
+    margin: 3px ;
+}
+.summary_bottom{
+    border-bottom: .5px dotted #696969;
+
+}
+.dotee{
+    font-size: 8px;
+}
+.summary button{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #EB4F4F;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    transition: .1s;
+}
+.summary button:active{
+    translate:-2px -2px;
+}
+.summary button:hover{
+    background-color: #c82121;
+}
+.center{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+@keyframes intropay {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

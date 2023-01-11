@@ -1,0 +1,63 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200@700,;700&display=swap'); */
+
+
+
+body{
+    font-family: 'Nunito sans',sans-serif;
+}
+
+.list ul{
+    font-family: 'Lato', sans-serif;
+    /* letter-spacing: 1px; */
+    /* transform: scaleX(.7); */
+    /* margin-left: -10%; */
+    /* font-weight: 100; */
+}
+.prepaid h3{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    
+    font-weight: 700;
+
+    /* color: yellow; */
+    /* background-color: yellowgreen; */
+}
+
+.login img{
+    height: 25px;
+    width: 25px;
+}
+.option img{ 
+   
+    height: 30px;
+    width: 30px; 
+}
+.option a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.something .sometext h1,h2{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+.something .sometext h1{
+    font-weight: 600;
+    font-size: 24px;   
+}
+.something .sometext h2{
+    font-weight:200 ;
+    font-size: 18px;
+}
+.text-content  .heading,.text-content  .heading{
+    /* font-family: nu; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+

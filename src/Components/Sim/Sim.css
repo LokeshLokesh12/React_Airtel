@@ -1,0 +1,103 @@
+.prepaid_main{
+    padding: 5% 0 0 0 ;
+    
+    /* background-color: aqua; */
+    /* min-height: 100vh; */
+    /* background-color: #f5f5f5; */
+    
+}
+.prepaid_main .containe{
+    display: flex;
+    
+    
+}
+.prepaid_left h1{
+    text-align: center;
+    margin: 30px;
+}
+.prepaid_left{
+    background-color: #EB4F4F;
+    /* min-height: 90vh; */
+    width: 50%;
+    margin: 0;
+    padding: 1% 5% 0% 5%;
+    /* padding:  5% 5% ; */
+    
+    /* background-color: beige; */
+}
+.tryit{
+    width: 95%;
+    /* height: 120px; */
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    margin-left: 30px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%), inset 0 -1px 0 0 #d4d4d4 ;    
+    padding: 1%;    
+    /* border-bottom: .5px solid gray; */
+}
+.tryit h3{
+    color: #EB4F4F;
+    font-weight: 700;
+    margin: 5px 10px;
+}
+.tryit p{
+    color: #EB4F4F;
+    font-weight: 700;
+    margin: 5px 10px ;
+    margin-bottom: 15px;
+}
+.tryit a{
+    color: #fff;
+    font-weight: 700;
+    margin:0 10px;
+    padding: 10px 20px;
+    background-color: #EB4F4F;
+    border-radius: 15px;
+
+}
+.prepaid_left img{
+   width: 100%;
+   margin-bottom: 0;
+}
+.prepaid_right{
+    /* min-height: 90vh; */
+    width: 50%;
+    padding: 5% 5% 3% 5%;
+    margin: 0;
+    /* background-color: blanchedalmond; */
+}
+.prepaid_form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+.prepaid_form label{
+    font-weight: 400;
+}
+.prepaid_form input{
+    width: 300px;
+    margin-bottom: 10px;
+    margin: 0px 10px 15px 0 ;
+    background-color: transparent;
+    padding: 5px 10px;
+    outline: none;
+    /* border: 1px solid #2b2b2b; */
+    border: none;
+    border-bottom:1px solid #c4c4c4;
+    text-transform: capitalize;
+    /* border-radius: 10px !important; */
+}
+.prepaid_form button{
+    padding: 8px 35px;
+    margin: 10px 5px 5px 0 ;
+    font-size: 18px;
+    border-radius: 10px !important;
+    color: #fff;
+    /* background-color: #3e4146; */
+    background-color: #E40000;
+    /* border: 1px solid #2b2b2b; */
+    border: none;
+    text-transform: capitalize
+}
