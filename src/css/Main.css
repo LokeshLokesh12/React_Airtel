@@ -1051,8 +1051,8 @@ a .square{
 .app-right h4{
     font-size: 34px;
     font-weight: 600;
-    margin-top: 0px;
-    line-height: 15.;
+    margin-top: 10px;
+    /* line-height: 15.; */
     color: #fff;
     margin-bottom: 40px;
 }

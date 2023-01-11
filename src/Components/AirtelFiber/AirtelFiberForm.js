@@ -70,7 +70,6 @@ function AirtelFiberForm() {
     }
     else {
 
-
       let fiber_form = document.forms.fiber_pay
       let fiber_form_data = new FormData(fiber_form);
 
@@ -79,7 +78,6 @@ function AirtelFiberForm() {
       var jsonData = JSON.parse(jsondata)
       console.log(jsonData);
       console.log(jsonData.name, jsonData.phone, jsonData.city)
-
 
       const res = await loadScript('https://checkout.razorpay.com/v1/checkout.js')
       if (!res) {
@@ -92,10 +90,6 @@ function AirtelFiberForm() {
       const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
 
       console.log(data)
-
-
-
-
       var options = {
         "key": "rzp_test_2EqXXeOXSUYTR4", // Enter the Key ID generated from the Dashboard
         "amount": data.data.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
