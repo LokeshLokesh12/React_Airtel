@@ -3,8 +3,8 @@ import './Artical.css'
 function xstreamLeftRight(props) {
   return (
     <Fragment>
-        <article>
-        <div className="XstreamRightLeft_right">
+        <article className='odd_artical'>
+        <div className="XstreamRightLeft_right" >
         <img alt="" height="438" src={props.image} width="640"/>
         </div>
         <div className="XstreamLeftRight_left">

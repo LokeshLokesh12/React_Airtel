@@ -34,13 +34,13 @@
     margin-left: 30px;
     background-color: aliceblue;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%), inset 0 -1px 0 0 #d4d4d4 ;    
-    padding: 1%;    
+    padding: 3%;    
     /* border-bottom: .5px solid gray; */
 }
 .tryit h3{
     color: #EB4F4F;
     font-weight: 700;
-    margin: 5px 10px;
+    margin: 0px 10px;
 }
 .tryit p{
     color: #EB4F4F;

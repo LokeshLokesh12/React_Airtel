@@ -21,8 +21,8 @@ function AirtelFiberForm() {
 
   useEffect(() => {
     let fiber_pack = sessionStorage.getItem('fiber_pack')
-    // fetch(`https://airtrl-api.onrender.com/fiber/${fiber_pack}`, { method: "GET" })
-    fetch(` http://localhost:8080/fiber/${fiber_pack}`, { method: "GET"})
+    fetch(`https://airtrl-api.onrender.com/fiber/${fiber_pack}`, { method: "GET" })
+    // fetch(` http://localhost:8080/fiber/${fiber_pack}`, { method: "GET"})
     
       .then(res => res.json())
       .then((data) => {
@@ -87,7 +87,8 @@ function AirtelFiberForm() {
       console.log(fiberdata[0].amount);
       let reamount = fiberdata[0].amount;
 
-      const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
+      // const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
+      const data = await axios.post(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
 
       console.log(data)
       var options = {
@@ -113,7 +114,8 @@ function AirtelFiberForm() {
           console.log(signature);
 
           try {
-            const verifyUrl = "http://localhost:9898/verify";
+            // const verifyUrl = "http://localhost:9898/verify";
+            const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";
             fetch(
               `${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`
               , {
@@ -144,7 +146,8 @@ function AirtelFiberForm() {
                 console.log(JSON.parse(jsonbody));
                 if (data.message === "Payment verified successfully") {
                   console.log(data);
-                  fetch("http://localhost:9898/registenewconnection", {
+                  // fetch("http://localhost:9898/registenewconnection", {
+                  fetch("https://razorpay-1gg2.onrender.com/registenewconnection", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: jsonbody

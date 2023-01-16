@@ -30,7 +30,8 @@ function Xstream() {
       console.log("JSON BODY :", jsonData)
       console.log("JSON BODY :", finalJson)
       
-      fetch("http://localhost:8090/registenewconnection",{
+      // fetch("http://localhost:9898/registenewconnection",{
+      fetch("http://localhost:9898/registenewconnection",{
         method:"POST",
         headers: { 'Content-Type':'application/json' },
         body: finalJson

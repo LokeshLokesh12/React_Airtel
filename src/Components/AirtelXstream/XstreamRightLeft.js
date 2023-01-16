@@ -3,7 +3,7 @@ import './Artical.css'
 function XstreamRightLeft(props) {
   return (
     <Fragment>
-      <article>
+      <article className='even_artical'>
         <div className="XstreamRightLeft_left">
           <h1 className='first_heading'>{props.first_heading}</h1>
           {props.second_heading && 

@@ -38,8 +38,8 @@ function AirtelDTH() {
     useEffect(()=>{
         setloading(true)
         const fetchData = async ()=>{
-        let url = "http://localhost:8080/dth"
-        // let url = "https://airtrl-api.onrender.com/fiber"
+        // let url = "http://localhost:8080/dth"
+        let url = "https://airtrl-api.onrender.com/dth"
         fetch(url,{method:'GET'})
         .then((res) => res.json())
         .then((data) => {

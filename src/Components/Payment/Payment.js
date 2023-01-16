@@ -23,8 +23,8 @@ function Payment() {
     
     setloading(true)
      let rechargepack=sessionStorage.getItem("rechargepack")
-     let url =`http://localhost:8080/plans/${rechargepack}`
-    //  let url =`https://airtrl-api.onrender.com/plans/${rechargepack}`
+    //  let url =`http://localhost:8080/plans/${rechargepack}`
+     let url =`https://airtrl-api.onrender.com/plans/${rechargepack}`
      fetch(url,{method:'GET'})
      .then((res) => res.json())
      .then((data) => {
@@ -63,8 +63,8 @@ function Payment() {
     console.log(rechargedata[0].cost);
     let reamount = rechargedata[0].cost;
    
-    // const data = await axios.get(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
-    const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
+    const data = await axios.get(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
+    // const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
  
       console.log(data)
 
@@ -118,7 +118,8 @@ function Payment() {
             console.log(JSON.parse(jsonbody));
               if(data.message === "Payment verified successfully"){
                   console.log(data);
-                  fetch("http://localhost:9898/paymentdb",{                   
+                  // fetch("http://localhost:9898/paymentdb",{                   
+                  fetch("https://razorpay-1gg2.onrender.com/paymentdb",{                   
                     method:'POST',
                     headers: { 'Content-Type':'application/json' },
                     body: jsonbody                  

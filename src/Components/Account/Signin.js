@@ -26,8 +26,8 @@ function Signin() {
           // Send to Backend
           console.log("JSON BODY :", jsonData)
 
-          fetch("http://localhost:8000/api/auth/register",{
-            // fetch("https://airtrl-user-api.onrender.com/api/auth/register",{
+          // fetch("http://localhost:8000/api/auth/register",{
+            fetch("https://airtrl-user-api.onrender.com/api/auth/register",{
               method:"POST",
               headers: { 'Content-Type':'application/json' },
               body: jsonData

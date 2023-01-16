@@ -28,8 +28,8 @@ function Login() {
         // Send to Backend
         console.log("JSON BODY :", jsonData)
         // first fetch while login
-        fetch("http://localhost:8000/api/auth/login",{
-        // fetch("https://airtrl-user-api.onrender.com/api/auth/login",{
+        // fetch("http://localhost:8000/api/auth/login",{
+        fetch("https://airtrl-user-api.onrender.com/api/auth/login",{
           method:"POST",
           headers: { 'Content-Type':'application/json' },
           body: jsonData
@@ -63,8 +63,8 @@ function Login() {
           // second fetch with token
           if (data.auth !== false) { 
             console.log(token);
-            fetch("http://localhost:8000/api/auth/userinfo",
-            // fetch("https://airtrl-user-api.onrender.com/api/auth/userinfo",
+            // fetch("http://localhost:8000/api/auth/userinfo",
+            fetch("https://airtrl-user-api.onrender.com/api/auth/userinfo",
             {
               method: "GET",
               headers: {

@@ -20,8 +20,8 @@ function Plans() {
 
   useEffect(() => {
     setloading(true)
-    let url = "http://localhost:8080/plans"
-    // let url = "https://airtrl-api.onrender.com/plans"
+    // let url = "http://localhost:8080/plans"
+    let url = "https://airtrl-api.onrender.com/plans"
     fetch(url, { method: 'GET' })
       .then((res) => res.json())
       .then((data) => {

@@ -284,7 +284,8 @@ function Header() {
 
             <div className="option">
                 <div className="get_app play-air-thanks">
-                <a href="https://play.google.com/store/apps/details?id=com.myairtelapp&_branch_match_id=1088443951698204352&utm_source=SMS&utm_campaign=apbbnkpvme_growth&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz9RLzCwqSc3Ry8zTTyxISsrLLijLTY1PL8ovL8kAAAakX0glAAAA"
+                {/* <a href="https://play.google.com/store/apps/details?id=com.myairtelapp&_branch_match_id=1088443951698204352&utm_source=SMS&utm_campaign=apbbnkpvme_growth&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz9RLzCwqSc3Ry8zTTyxISsrLLijLTY1PL8ovL8kAAAakX0glAAAA" */}
+                <a href="/xstream-app"
                     >
                     <img id="get-img" src="https://assets.airtel.in/static-assets/new-home/img/get-app.svg" alt="" />
                     <p>get app</p>
