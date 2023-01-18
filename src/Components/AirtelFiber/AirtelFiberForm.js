@@ -115,7 +115,8 @@ function AirtelFiberForm() {
 
           try {
             // const verifyUrl = "http://localhost:9898/verify";
-            const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";
+            const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";            
+            console.log(`${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`);
             fetch(
               `${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`
               , {

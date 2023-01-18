@@ -21,7 +21,7 @@ function Port() {
             console.log("json :",check)
             // Send to Backend
             console.log("JSON BODY :", JsonData)
-            let url = `http://localhost:9898/requestsim`
+            let url = `https://razorpay-1gg2.onrender.com/requestsim`
             fetch(url,{
                 method:'POST',
                 headers: { 'Content-Type': 'application/json' },

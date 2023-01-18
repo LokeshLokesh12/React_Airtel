@@ -4,26 +4,29 @@ import city from '../AirtelXstream/City'
 import axios from 'axios'
 function AirtelDTHform() {
 
-  const profilestr = localStorage.getItem("userInfo")
-  const profile = JSON.parse(profilestr)
+  // const profilestr = localStorage.getItem("userInfo")
+  // const profile = JSON.parse(profilestr)
 
   const [fiberdata, setfiberdata] = useState([{
-    "amount": "",
-    "calls": "",
-    "image": "",
-    "internet": "",
-    "internet_speed": "",
-    "tittle": "",
-    "_id": ""
-  }])
+    "_id": "63bba90edc51e04ebf9bd900",
+    "image": "https://assets.airtel.in/static-assets/safo/dth/images/jpg/img_stb_2.jpg",
+    "tittle": "HD-High Definition",
+    "benfits": [
+    ],
+    "cost": 1000
+    }])
+
+
 
   useEffect(() => {
-    let dth_pack = sessionStorage.getItem('dth_pack')
-    fetch(`https://airtrl-api.onrender.com/fiber/${dth_pack}`, { method: "GET" })
-    // fetch(` http://localhost:8080/dth/${dth_pack}`, { method: "GET"})
+    let fiber_pack = sessionStorage.getItem('dth_pack')
+    console.log(fiber_pack);
+    fetch(`https://airtrl-api.onrender.com/dth/${fiber_pack}`, { method: "GET" })
+    // fetch(` http://localhost:8080/dth/${fiber_pack}`, { method: "GET"})
     
       .then(res => res.json())
       .then((data) => {
+        console.log(data)
         setfiberdata(data)
 
       })
@@ -174,9 +177,8 @@ function AirtelDTHform() {
 
         },
         "prefill": {
-          "name": profile.name ? profile.name : "",
-          "email": profile.mail ? profile.mail : "",
-          "contact": profile.phone ? profile.phone : ""
+          "name":jsonData.name ,
+          "contact": jsonData.phone
         },
         "notes": {
           "Plan id": fiberdata[0]._id,
@@ -242,20 +244,18 @@ function AirtelDTHform() {
                         <ul className='dthul'>
                             {data.benfits.map((data)=>{
                                 return(
-                                    <li className='dthli'>
+                                    <li className='dthli' key={data.conent}>
                                         <div className="dth_img"><img className='dthimg'src={data.icon} alt="" /></div>
                                         <p className='dthp'>{data.conent}</p>
                                     </li>  
                                 )
-                            })}
-                            
+                            })}                            
                         </ul>
                       <div className="fiber_lower_final_section">
                         <div className="amount">
                           <p>Set Top Box Activation Charges</p>
                           <h4>₹ {data.cost}</h4>
                         </div>
-                        {/* <button id='button'>buy now</button> */}
                       </div>
                     </div>
                   </div>
@@ -263,6 +263,8 @@ function AirtelDTHform() {
               )
             })
           }
+
+
         </div>
 
         <footer>

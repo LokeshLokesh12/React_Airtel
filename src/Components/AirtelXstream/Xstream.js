@@ -30,15 +30,19 @@ function Xstream() {
       console.log("JSON BODY :", jsonData)
       console.log("JSON BODY :", finalJson)
       
-      // fetch("http://localhost:9898/registenewconnection",{
       fetch("http://localhost:9898/registenewconnection",{
+      // fetch("http://localhost:9898/registenewconnection",{
         method:"POST",
         headers: { 'Content-Type':'application/json' },
         body: finalJson
       })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        console.log(data);  
+        alert(data.message)
+        if(data.message === 'Our customer executive contact you as soon as possible'){
+          window.location = '/'
+        }
       })
     }
     xstream_form.addEventListener("submit",handleSubmit);

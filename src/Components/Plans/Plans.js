@@ -27,7 +27,12 @@ function Plans() {
       .then((data) => {
         console.log(data)
         setplan(data)
+
         setloading(false)
+      })
+      .catch(()=>{
+        alert("somethin went wrong try agaian later" )
+        window.location = '/'
       })
   }, [])
 

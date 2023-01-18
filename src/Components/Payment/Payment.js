@@ -4,8 +4,8 @@ import axios from 'axios'
 import CircleLoader from "react-spinners/CircleLoader";
 // import { Await } from 'react-router-dom';
 function Payment() {
-  const profilestr = localStorage.getItem("userInfo")
-  const profile = JSON.parse(profilestr)
+  // const profilestr = localStorage.getItem("userInfo")
+  // const profile = JSON.parse(profilestr)
 
  
 
@@ -63,7 +63,7 @@ function Payment() {
     console.log(rechargedata[0].cost);
     let reamount = rechargedata[0].cost;
    
-    const data = await axios.get(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
+    const data = await axios.post(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
     // const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
  
       console.log(data)
@@ -92,7 +92,8 @@ function Payment() {
           console.log(response.razorpay_signature);
           // setsignature(response.razorpay_signature);
           try {
-            const verifyUrl = "http://localhost:9898/verify";
+            const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";
+            // const verifyUrl = "http://localhost:9898/verify";
            fetch(
             `${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`
             ,{method:'POST' 
@@ -129,7 +130,7 @@ function Payment() {
                   console.log(data)
                   if(data.message === "Recharge Successfully"){
                     alert(data.message)
-                    // window.location =  "/"
+                    window.location =  "/"
                   }
                 })
                 }
@@ -143,9 +144,9 @@ function Payment() {
 
       },
       "prefill":{
-        "name": profile.name?profile.name:"" ,
-        "email": profile.mail?profile.mail:"",
-        "contact": profile.phone?profile.phone:""
+        "name": "" ,
+        mail:"",
+        "contact":""
       } ,
       "notes": {
           "Address": "Razorpay Corporate Office",

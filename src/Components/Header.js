@@ -299,9 +299,7 @@ function Header() {
                 </a>             
                 </div>
                 
-               {loginLink()}  
-               {/* if user log in go user data page else go to login page */}
-                
+               {loginLink()}              
             </div>
             </div>
            
