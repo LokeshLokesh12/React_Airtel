@@ -88,7 +88,8 @@ function AirtelFiberForm() {
       let reamount = fiberdata[0].amount;
 
       // const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
-      const data = await axios.post(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
+      // const data = await axios.post(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
+      const data = await axios.post(`https://airtrl-payment-api.onrender.com/payment/${reamount}`)
 
       console.log(data)
       var options = {
@@ -115,7 +116,8 @@ function AirtelFiberForm() {
 
           try {
             // const verifyUrl = "http://localhost:9898/verify";
-            const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";            
+            // const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";            
+            const verifyUrl = "https://airtrl-payment-api.onrender.com/verify";            
             console.log(`${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`);
             fetch(
               `${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`
@@ -148,7 +150,8 @@ function AirtelFiberForm() {
                 if (data.message === "Payment verified successfully") {
                   console.log(data);
                   // fetch("http://localhost:9898/registenewconnection", {
-                  fetch("https://razorpay-1gg2.onrender.com/registenewconnection", {
+                  // fetch("https://razorpay-1gg2.onrender.com/registenewconnection", {
+                  fetch("https://airtrl-payment-api.onrender.com/registenewconnection", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: jsonbody

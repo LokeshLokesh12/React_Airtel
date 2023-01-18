@@ -63,7 +63,8 @@ function Payment() {
     console.log(rechargedata[0].cost);
     let reamount = rechargedata[0].cost;
    
-    const data = await axios.post(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
+    // const data = await axios.post(`https://razorpay-1gg2.onrender.com/payment/${reamount}`)
+    const data = await axios.post(`https://airtrl-payment-api.onrender.com/payment/${reamount}`)
     // const data = await axios.post(`http://localhost:9898/payment/${reamount}`)
  
       console.log(data)
@@ -92,7 +93,8 @@ function Payment() {
           console.log(response.razorpay_signature);
           // setsignature(response.razorpay_signature);
           try {
-            const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";
+            const verifyUrl = "https://airtrl-payment-api.onrender.com/verify";
+            // const verifyUrl = "https://razorpay-1gg2.onrender.com/verify";
             // const verifyUrl = "http://localhost:9898/verify";
            fetch(
             `${verifyUrl}?razorpay_order_id=${response.razorpay_order_id}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_signature=${response.razorpay_signature}`
@@ -120,7 +122,8 @@ function Payment() {
               if(data.message === "Payment verified successfully"){
                   console.log(data);
                   // fetch("http://localhost:9898/paymentdb",{                   
-                  fetch("https://razorpay-1gg2.onrender.com/paymentdb",{                   
+                  // fetch("https://razorpay-1gg2.onrender.com/paymentdb",{                   
+                  fetch("https://airtrl-payment-api.onrender.com/paymentdb",{                   
                     method:'POST',
                     headers: { 'Content-Type':'application/json' },
                     body: jsonbody                  
